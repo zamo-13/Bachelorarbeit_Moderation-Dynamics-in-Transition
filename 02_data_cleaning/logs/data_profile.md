@@ -102,3 +102,17 @@ Example entry format:
   - X v1 rows: 132,191
   - X v2 rows: 51,130
   - Validation: Lazy Polars group_by on api_version completed successfully for both files
+
+- Date: 2026-06-03
+- Description: Pre-harmonized screening for TIKTOK (tiktok_de_2025.parquet)
+- Result:
+  - Rows screened: 997,688,267
+  - Columns screened: 10
+  - Report written: C:\Users\MoZa\OneDrive - Universität Paderborn\0_UPB\BA\Repo\Bachelor-Arbeit\02_data_cleaning\logs\pre_harmonized_screening_report.md
+
+- Date: 2026-06-03
+- Description: Pre-harmonized screening for X (x_de_2025.parquet)
+- Result:
+  - Rows screened: 183,321
+  - Columns screened: 10
+  - Report written: C:\Users\MoZa\OneDrive - Universität Paderborn\0_UPB\BA\Repo\Bachelor-Arbeit\02_data_cleaning\logs\pre_harmonized_screening_report.md
