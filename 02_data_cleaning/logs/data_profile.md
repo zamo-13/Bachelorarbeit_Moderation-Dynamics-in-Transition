@@ -7,12 +7,19 @@
 - Combined total: 1,003,399,361
 ## 2. After DE Filtering
 <!-- Row counts after territorial_scope DE filter -->
-- Date: 2026-04-29
-- Description: Streaming Polars DE filtering and split run (filter_split_save_de_polars.py)
 
 - TikTok rows: 999,079,277
 - X rows: 183,324
 - Number of original files deleted: 1488
+
+## 3. 2025-date-range Filtering
+- TikTok rows after 2025 date filter: 997,688,267
+- TikTok rows dropped ("application_date" value outside 2025-01-01 to 2025-12-31): 1,391,010
+<br /> 
+- X rows after 2025 date filter: 183,321
+- X rows dropped (outside 2025-01-01 to 2025-12-31): 3
+
+
 ## 3. Platform Split
 <!-- Row counts per platform after splitting TikTok and X -->
 
@@ -21,11 +28,10 @@
 
 ## 5. Harmonization Outputs
 <!-- Quantitative findings from taxonomy harmonization and category documentation -->
-- Date: 2026-04-30
-- Description: Category documentation generation (generate_mapping_documentation.py)
 - TikTok v1 rows: 831,613,348
 - TikTok v2 rows: 167,465,929
 - TikTok total harmonized: 999,079,277 (verified match)
+<br /> 
 - X v1 rows: 132,194
 - X v2 rows: 51,130
 - X total harmonized: 183,324 (verified match)
