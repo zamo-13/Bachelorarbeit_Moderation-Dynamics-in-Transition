@@ -62,6 +62,7 @@ Quick reminder phrase you can paste in any chat:
 | M-20260602-01 | 2026-06-02 | done | Create date-range filter script for 2025 application_date | 02_data_cleaning/scripts/apply_date_filter.py | C:\BA_Data\tiktok_de_2025.parquet; C:\BA_Data\x_de_2025.parquet | Script saved; filters 2025-01-01 to 2025-12-31 and overwrites in place after backup-folder check | Backup folder existence check and per-platform drop-count print implemented | CD-20260602-01 |
 | M-20260602-04 | 2026-06-02 | done | Regenerate TikTok harmonized file from filtered inputs | 03_harmonization/scripts/harmonize_categories_polars.py | C:\BA_Data\tiktok_de_2025.parquet (997,688,267 rows) | tiktok_de_2025_harmonized.parquet (18.3 GB) | Output timestamp 13:26:28; TikTok rows preserved; category and date harmonization applied | - |
 | M-20260602-05 | 2026-06-02 | done | Regenerate X harmonized file from filtered inputs | 03_harmonization/scripts/harmonize_categories_polars.py (X-only mode) | C:\BA_Data\x_de_2025.parquet (183,321 rows) | x_de_2025_harmonized.parquet (3.66 MB); row count match verified | Input 183,321 rows → output 183,321 rows; validation passed (no unmapped categories) | - |
+| M-20260603-02 | 2026-06-03 | done | Lazy api_version analysis on date-filtered files | Polars lazy scan via mcp_pylance_mcp_s_pylanceRunCodeSnippet | C:\BA_Data\tiktok_de_2025.parquet; C:\BA_Data\x_de_2025.parquet | TikTok v1/v2 and X v1/v2 counts recomputed on date-filtered files | Lazy group_by(api_version) completed successfully for both files | - |
 
 ## Output Artifacts To Cite In Thesis
 

@@ -7,8 +7,12 @@
 - Combined total: 1,003,399,361
 ## 2. After DE Filtering
 <!-- Row counts after territorial_scope DE filter -->
-
+- TikTok v1 rows: 831,613,348
+- TikTok v2 rows: 167,465,929
 - TikTok rows: 999,079,277
+<br />
+- X v1 rows: 132,194
+- X v2 rows: 51,130
 - X rows: 183,324
 - Number of original files deleted: 1488
 
@@ -28,13 +32,13 @@
 
 ## 5. Harmonization Outputs
 <!-- Quantitative findings from taxonomy harmonization and category documentation -->
-- TikTok v1 rows: 831,613,348
-- TikTok v2 rows: 167,465,929
-- TikTok total harmonized: 999,079,277 (verified match)
+- TikTok v1: 830,222,338
+- TikTok v2: 167,465,929
+- TikTok total: 997,688,267 (verified match)
 <br /> 
-- X v1 rows: 132,194
+- X v1 rows: 132,191
 - X v2 rows: 51,130
-- X total harmonized: 183,324 (verified match)
+- X total harmonized: 183,321 (verified match)
 
 ## 6. Analysis Outputs
 <!-- Key numeric results from RQ1 and RQ2 analyses -->
@@ -87,3 +91,14 @@ Example entry format:
   - Columns added: category_harmonized, application_date_harmonized
   - Original columns preserved: category_raw, application_date_raw
   - Validation: Both platforms passed (no unmapped categories)
+
+- Date: 2026-06-03
+- Description: Lazy api_version analysis on date-filtered files
+- Result:
+  - TikTok rows analyzed: 997,688,267
+  - TikTok v1 rows: 830,222,338
+  - TikTok v2 rows: 167,465,929
+  - X rows analyzed: 183,321
+  - X v1 rows: 132,191
+  - X v2 rows: 51,130
+  - Validation: Lazy Polars group_by on api_version completed successfully for both files
