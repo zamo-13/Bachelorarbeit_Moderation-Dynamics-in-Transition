@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python \"c:\\\\Users\\\\MoZa\\\\OneDrive - Universität Paderborn\\\\0_UPB\\\\BA\\\\Repo\\\\Bachelor-Arbeit\\\\temp\\\\check_x_territorial_scope.py\")"
+      "Bash(python \"c:\\\\Users\\\\MoZa\\\\OneDrive - Universität Paderborn\\\\0_UPB\\\\BA\\\\Repo\\\\Bachelor-Arbeit\\\\temp\\\\check_x_territorial_scope.py\")",
+      "Read(//c/Users/MoZa/OneDrive - Universit�t Paderborn/0_UPB/BA/Repo/Bachelor-Arbeit/**)"
     ]
   }
 }
