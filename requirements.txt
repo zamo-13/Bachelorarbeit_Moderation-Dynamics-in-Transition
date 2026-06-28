@@ -1,2 +1,4 @@
-polars
-pandas
+polars==1.40.1
+pandas==3.0.0
+matplotlib==3.10.8
+numpy==2.4.2
