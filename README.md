@@ -8,7 +8,7 @@ This thesis examines content moderation decisions on TikTok and X in Germany thr
 | --- | --- |
 | `01_data_extraction/` | Documentation of the raw data download process and data provenance |
 | `02_data_cleaning/` | Pipeline scripts, cleaning decisions, logs, and the full pipeline runbook |
-| `04_analysis/` | Analysis scripts and the shared data loader |
+| `03_analysis/` | Analysis scripts and the shared data loader |
 | `Archive/` | Category harmonisation notebook and taxonomy mapping CSV |
 | `notebooks/` | Exploratory and profiling notebooks |
 
