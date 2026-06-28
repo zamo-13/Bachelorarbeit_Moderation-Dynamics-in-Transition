@@ -1,0 +1,26 @@
+=================================================================
+content_date vs application_date — raw zip check
+Scope: territorial_scope contains DE, application_date 2025
+=================================================================
+
+Platform : TikTok  (random 50% sample)
+Total rows (DE, 2025):     514,897,286
+
+  content_date is null            :               0  (  0.00%)
+  content_date == application_date:     480,819,435  ( 93.38%)
+  content_date != application_date:      34,077,851  (  6.62%)
+
+  Rows where content_date is usable (not null, not = application_date):
+  34,077,851 rows = 6.62% of total
+-----------------------------------------------------------------
+
+Platform : X  (all zips)
+Total rows (DE, 2025):         183,321
+
+  content_date is null            :               0  (  0.00%)
+  content_date == application_date:         183,321  (100.00%)
+  content_date != application_date:               0  (  0.00%)
+
+  Rows where content_date is usable (not null, not = application_date):
+  0 rows = 0.00% of total
+-----------------------------------------------------------------
